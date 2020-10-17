@@ -1,0 +1,71 @@
+.nav {
+   height: 50px;
+   display: flex;
+   justify-content: space-between;
+   border-right: 1px solid rgb(219, 20, 20);
+   
+}
+
+.logo {
+   width: 30%;
+   font-size: 200%;
+   display: flex;
+   justify-content: space-around;
+   background-color: aqua;
+}
+
+.menu{
+   width: 50%;
+   display: flex;
+   justify-content: space-around;
+}
+
+.menu button {
+   cursor: pointer;
+   border: none;
+   background-color: white;
+}
+
+.container {
+   background-color: #c559f3;
+   height: 68vh;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.check{
+   display: flex;
+   justify-content: space-between;
+   height: 80%;
+   width: 70%;
+}
+
+.left {
+   width: 30px;
+   height: 100%;
+   background-color: white;
+   border-radius: 10px;
+}
+
+.right {
+   width: 30px;
+   height: 100%;
+   background-color: white;
+   border-radius: 10px;
+}
+
+.left-detail label {
+   display: block;
+   margin-top: 3%;
+}
+
+
+.right-detail label {
+   padding: 8px;
+   cursor: pointer;
+   background-color: rgb(216, 217, 219);
+   width: 80%;
+   height: 25px;
+   
+}

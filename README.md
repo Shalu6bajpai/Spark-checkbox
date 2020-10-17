@@ -1,2 +1,2 @@
-checkbox design in redux .
+Spark-18 Assignment for front-end
 

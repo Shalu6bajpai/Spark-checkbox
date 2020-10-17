@@ -2,18 +2,15 @@ import React, { Component, Fragment } from "react";
 import checkbox2 from "./Checkbox2";
 
 class checkbox1 extends Component {
-   state = { isChecked: false, head: "", val: [] };
+   
+   state = { isChecked: false, heading: "", val: [] };
  render() {
       return (
          <Fragment>
             <div className="left">
                <div className="left-detail">
                   <h2>Portugal</h2>
-                  <label><input
-                        type="checkbox"
-                        name="Portugal"
-                        value="Aasiya Jayavatan"
-                        onChange={(e) => this.handleOnChange(e)}
+                  <label><input type="checkbox" name="Portugal" value="Aasiya Jayavatan" onChange={(e) => this.handleOnChange(e)}
                      />
                      Aasiya Jayavatan
                   </label>
